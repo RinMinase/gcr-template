@@ -3,4 +3,5 @@ node_modules/
 .env
 
 build/
-/functions.zip
+function/
+/function.zip
