@@ -1,0 +1,17 @@
+{
+  "name": "gcr-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "dotenv -- functions-framework --target=index",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^4.0.0"
+  },
+  "devDependencies": {
+    "bestzip": "^2.2.1",
+    "dotenv-cli": "^10.0.0"
+  }
+}
